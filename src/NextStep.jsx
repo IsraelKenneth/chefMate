@@ -97,7 +97,7 @@ function NextStep() {
         //   console.log(gesture.gestures);
 
           const confidence = gesture.gestures.map(
-            (prediction) => prediction.confidence
+            (prediction) => prediction.score
           );
           const maxConfidence = confidence.indexOf(
             Math.max.apply(null, confidence)
