@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import NextStep from './NextStep.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -12,10 +11,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path:"/step-1",
-    element: <NextStep />
   }
 ]);
 
